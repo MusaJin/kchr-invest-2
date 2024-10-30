@@ -13,6 +13,7 @@ import Layout from './Components/Standart/Layout/Layout'
 function App() {
 	return (
 		<>
+		
 			<Routes>
 				<Route path='/' element={<Layout />}>
 					<Route index element={<MainPage />} />
